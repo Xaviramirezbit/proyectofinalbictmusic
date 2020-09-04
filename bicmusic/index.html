@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bictmusic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+    
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./imagenes/Logobic.png" alt=""width= 60px></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Géneros Musicales 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Russian Techno</a>
+                <a class="dropdown-item" href="#">Metal</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Dance 90'S</a>
+              </div>
+            </li>
+        </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Qué artista que desea buscar" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+</header>
+
+<main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="5000">
+              <img src="./imagenes/metallica.jpg" class="d-block w-100 align-self-center" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="./imagenes/music.jpg" class="d-block w-100 align-self-center" alt="...">
+          </div>
+          <div class="carousel-item " data-interval="5000">
+            <img src="./imagenes/techno.jpg" class="d-block w-100 align-self-center" alt="...">
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid">
+        <div class="row mt-5 p-2 text-center">
+          <div class="col-lg-6 col-md-6 col-sm-12 order-sm-1 text-center">
+            <p>XS Project - Bochka, Bass, Kolbaser (Бочка,басс,колбасер)</p>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/r5uzc3U8Qhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="col-lg-6 col-md-6 col-sm-12 order-sm-2 text-center">
+            <img src="./imagenes/Logobic.png" alt="" width="150px">
+            <p>El Hard Bass (Хардбасс, en ruso) es un subgénero de la música electrónica de baile. Surgió a finales de la década de los noventas e inicios de los 2000 en Rusia, Polonia, Ucrania, países postsovieticos, y otras naciones de Europa del Este. Goza de influencias de otros subgéneros, tales como el House, Hard House y el Hardstyle. Se caracteriza por llevar un tempo rápido (Entre 150 a 160 ppm), kicks fuertes, uso distintivo del bajo Donk y ocasionalmente rapeo en inglés, ruso u otras lenguas eslavas. Se ha convertido en estereotipo de la cultura gopnik y desde 2015 se volvió viral este subgénero gracias a los videos de personas bailando Hard Bass en público.
+             Los fanáticos del hard bass se visten de Adidas y toman bebidas alcohólicas. Se hacen llamar Slavs (en español Eslavos), los gopniks también son Eslavos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+<footer>
+    <div class="card-deck p-5">
+      <div class="card">
+        <img src="./imagenes/dance.png" class="card-img-top d-flex align-self-center" alt="ssdi">
+        <div class="card-body">
+          <h5 class="card-title">Nuestras redes sociales</h5>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Spotify</a></li>
+            <li><a href="#">Deeser</a></li>
+            </ul>
+          <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/tromp.png" class="card-img-top d-flex align-self-center" alt="ky">
+        <div class="card-body">
+          <h5 class="card-title">Actualidad Musical</h5>
+          <p class="card-text">Metallica destila el whiskey que ahora fabrica a través de ondas de baja frecuencia...
+            Más por número de noticias que por canciones, nuevamente los Metallica son protagonistas tras haber anunciado para finales del mes de septiembre el lanzamiento de Blackened American Whiskey, su propia marca de licor, homenaje a la canción que abre su clásico disco de 1998 …And Justice for All.
+            </p>
+          <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/bailarina.png" class="card-img-top d-flex align-self-center" alt="logo">
+        <div class="card-body">
+          <h5 class="card-title">Premios Billboard 2020</h5>
+          <p class="card-text">The 2020 Billboard Music Awards got the green light to come back this year on Oct. 14 after being postponed due to coronavirus. So who should perform?
+
+            Garth Brooks will receive the Icon Award at this year's ceremony, and the 19-time BBMA winner will deliver a performance. It would be amazing to see artists who scored their first No. 1 song on the Billboard Hot 100 in the last year show off those chart-toppers on the Billboard stage, including DaBaby, Roddy Ricch, Megan Thee Stallion, Doja Cat, Selena Gomez, Kid Cudi and Harry Styles. Nicki Minaj also makes this list, but her pregnancy thus far hasn't been easy and it's unclear when her due date is.
+            But with some of the biggest pop stars such as Lady Gaga, Dua Lipa and Miley Cyrus ushering fans into their newest disco-infused dance eras, this would be the perfect night to bring their worlds of Chromatica, Future Nostalgia and She is Miley Cyrus, respectively, to life.</p>
+          <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
